@@ -105,13 +105,7 @@
     --colGapSize: 1rem;
     gap: 50px;
 
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    width: 75%;
-    padding-left: 3%;
-    padding-right: 3%;
-    background: #c6c9ce;
+    
    
     
   }
@@ -123,6 +117,8 @@ body {
   background-color: #ffffff;
   padding: 2rem;
   margin-bottom: 60px;
+  display: flex;
+ justify-content: center;
   
   
 }
@@ -255,9 +251,11 @@ h2{
   
 }
 
-.Container {
-  width: 90%;
-  min-width: 500px;
-  margin: auto;
-  background-color: #c6c9ce;
+.container {
+  
+  background: #c6c9ce;
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
